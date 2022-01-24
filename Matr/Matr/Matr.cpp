@@ -1,20 +1,21 @@
 ﻿
 #include <iostream>
-#include "Matrixx.h"
+
+#include "Matrixx/Matrixx.h"
+#include "Matrixx/Calculations/Calculations.h"
 
 
 int main()
 {
-	int x;
-	int y;
-	std::cout<< "Input line size of matrix";
-	std::cin >> x;
-	std::cout<< "Input colomn size of matrix";
-	std::cin >>y;
-	Matrixx Ar(x,y);
+	Input input;
+
+	input.input_size_of_matrix();
+	Matrixx const Ar(input.get_x_size_of_array(),input.get_y_size_of_array());
 	Ar.print_zero_array();
-	Ar.calculate_value_array();
-	Ar.print_value_array();
+	input.input_main_dot();
+	Calculations const calc(input);
+	Ar.set_distance_array(calc);
+	Ar.print_distance_array();
 	return 0;
 }
 
