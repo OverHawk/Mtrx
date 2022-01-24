@@ -22,7 +22,6 @@ void Matrixx::print_zero_array() const
             const int size = y_size*i+j;
             Array[size]=d;
             std::cout<< "0|";
-            //std::cout<< "|"<<Array[size].get_x_pos()<<";"<< Array[size].get_y_pos() <<"|";
         }
         std::cout<<std::endl;
     }

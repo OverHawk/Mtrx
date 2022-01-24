@@ -5,6 +5,7 @@
 
 class Matrixx //class which has array of dots and includes methods which calculates and prints matrix
 {
+private:
     int x_size{};
     int y_size{};
     Dotez* Array; // array of dots

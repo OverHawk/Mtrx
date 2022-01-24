@@ -25,7 +25,7 @@ int Dotez::get_y_pos()
 
 Dotez::~Dotez()
 {
-//     delete this;
+
 }
 
 

@@ -2,6 +2,7 @@
 
 struct Dotez //Struct which contains dot position
 {
+public:
     Dotez();
     Dotez(int x, int y);
     int get_x_pos();

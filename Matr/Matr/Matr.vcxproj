@@ -142,10 +142,12 @@
     <ClCompile Include="Dotez.cpp" />
     <ClCompile Include="Matr.cpp" />
     <ClCompile Include="Matrixx.cpp" />
+    <ClCompile Include="Position.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dotez.h" />
     <ClInclude Include="Matrixx.h" />
+    <ClInclude Include="Position.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
