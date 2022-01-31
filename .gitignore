@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+Matr/x64/*
+Matr/Debug/*

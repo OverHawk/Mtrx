@@ -9,7 +9,7 @@
 Matrixx::Matrixx(int x,int y) : x_size(x), y_size(y)
 {
     Array_of_dots = new Dotez* [y];
-    for (int i = 0; i < x; i++) 
+    for (int i = 0; i < y; i++) 
         Array_of_dots[i] = new Dotez[x];
 }
 
@@ -60,5 +60,6 @@ void Matrixx::set_distance_array(Calculations calc) const
 
 Matrixx::~Matrixx()
 {
-    delete this;
+    delete  this;
+    
 }

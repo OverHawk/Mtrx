@@ -4,9 +4,9 @@
 
 void Input::input_size_of_matrix()
 {
-    std::cout<< "Input line size of matrix";
+    std::cout<< "Input line size of matrix: ";
     std::cin >> x_size_of_array;
-    std::cout<< "Input colomn size of matrix";
+    std::cout<< "Input colomn size of matrix: ";
     std::cin >> y_size_of_array;
 }
 
