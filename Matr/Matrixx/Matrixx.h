@@ -20,6 +20,6 @@ public:
     Matrixx(int x, int y);
     void print_zero_array() const;
     void print_distance_array() const;
-    void set_distance_array(Calculations calc) const;
+    void set_distance_array(Calculations calc, char num_of_dots) const;
     ~Matrixx();
 };

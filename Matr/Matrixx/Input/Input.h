@@ -8,6 +8,7 @@ private:
     int main_dot_x{};
     int main_dot_y{};    
 public:
+    Input();
     void input_size_of_matrix();
     void input_main_dot();
     /*

@@ -49,17 +49,15 @@ void Matrixx::print_distance_array() const
 
 
 
-void Matrixx::set_distance_array(Calculations calc) const
+void Matrixx::set_distance_array(Calculations calc, char num_of_dots) const
 {
     for(int i=0; i<y_size;i++)
     {
         for(int j=0;j<x_size;j++)
-            Array_of_dots[i][j].set_distance(calc.calculate_distance(j,i));
+            Array_of_dots[i][j].set_distance(calc.calculate_distance(j,i,num_of_dots));
     }
 }
 
 Matrixx::~Matrixx()
-{
-    delete  this;
-    
+{    
 }

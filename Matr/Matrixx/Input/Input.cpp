@@ -2,6 +2,10 @@
 
 #include <iostream>
 
+Input::Input():x_size_of_array(0),y_size_of_array(0),main_dot_x(0),main_dot_y(0)
+{
+}
+
 void Input::input_size_of_matrix()
 {
     std::cout<< "Input line size of matrix: ";
